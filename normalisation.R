@@ -1,0 +1,5 @@
+rm(list = ls())
+data = c(1200,34567,3456,12,3456,0985,1211)
+summary(data)
+log_scale = log(as.data.frame(data))
+
